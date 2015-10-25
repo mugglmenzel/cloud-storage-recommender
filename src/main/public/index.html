@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cloud Storage Recommender</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/recommender.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cloud Storage Recommender</h1>
+        <div class="lead">Find the cloud storage offer that is right for you by answering simple questions.</div>
+        <form class="form-recommend">
+            <fieldset>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="encryption" value="on" checked>
+                        Encryption required
+                    </label>
+                </div>
+
+                <div class="text-center">
+                    <a class="btn btn-primary btn-lg btn-recommend">Recommend!</a>
+                </div>
+            </fieldset>
+        </form>
+        <div class="spacer-30"></div>
+        <div class="result row collapse">
+            <div class="col-xs-12 text-center lead">We recommend:</div>
+            <div class="col-sm-4 col-sm-offset-4"><img class="img-responsive center-block" src=""></div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    <script src="js/recommender.min.js"></script>
+</body>
+</html>
